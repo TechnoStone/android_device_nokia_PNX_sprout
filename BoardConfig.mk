@@ -95,6 +95,3 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # Sepolicy
 include device/qcom/sepolicy/SEPolicy.mk
-
-# Treble
-BOARD_VNDK_VERSION := current

@@ -159,6 +159,10 @@ VENDOR_SECURITY_PATCH := 2021-05-01
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 
+# Treble
+PRODUCT_FULL_TREBLE_OVERRIDE := true
+PRODUCT_VENDOR_MOVE_ENABLED := true
+
 # VNDK
 BOARD_VNDK_VERSION := current
 

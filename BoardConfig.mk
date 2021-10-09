@@ -97,3 +97,6 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # Sepolicy
 include device/qcom/sepolicy/SEPolicy.mk
+
+# Inherit from the proprietary version
+include vendor/nokia/Phoenix/BoardConfigVendor.mk

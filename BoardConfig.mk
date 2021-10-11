@@ -56,6 +56,9 @@ TARGET_OTA_ASSERT_DEVICE := PNX_sprout
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
+# Graphics
+TARGET_USES_HWC2 := true
+
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 

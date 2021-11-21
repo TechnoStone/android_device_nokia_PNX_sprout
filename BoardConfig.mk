@@ -94,4 +94,7 @@ TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-05-01
 
+# Sepolicy
+include device/qcom/sepolicy/SEPolicy.mk
+
 include vendor/nokia/PNX_sprout/BoardConfigVendor.mk

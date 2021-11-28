@@ -4,6 +4,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common ArrowOS stuff
 $(call inherit-product, vendor/arrow/config/common.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit from PNX_sprout device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)

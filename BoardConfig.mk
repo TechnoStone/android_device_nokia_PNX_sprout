@@ -54,6 +54,9 @@ AB_OTA_PARTITIONS += \
 # Assert
 TARGET_OTA_ASSERT_DEVICE := PNX_sprout
 
+# ANT+
+BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 

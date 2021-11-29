@@ -50,7 +50,9 @@ ro.hwui.text_large_cache_height=1024
 persist.data.iwlan.enable=true
 persist.ims.enableADBLogs=1
 persist.ims.enableDebugLogs=1
-telephony.lteOnCdmaDevice=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
 
 # Logging
 ro.logd.kernel=true

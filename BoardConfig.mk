@@ -136,6 +136,9 @@ HWUI_COMPILE_FOR_PERF := true
 # Keystore
 TARGET_PROVIDES_KEYMASTER := true
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/proc/AllHWList/tp_double_tap"
+
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop

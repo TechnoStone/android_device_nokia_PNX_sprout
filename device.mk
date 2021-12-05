@@ -203,6 +203,7 @@ PRODUCT_PACKAGES += \
     init.pnx.target.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
+    init.recovery.qcom.rc \
     init.target.rc \
     fstab.qcom \
     ueventd.qcom.rc

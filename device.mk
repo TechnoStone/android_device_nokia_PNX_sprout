@@ -240,6 +240,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NfcNci \
     Tag \
+    SecureElement \
     com.android.nfc_extras
 
 # Overlays

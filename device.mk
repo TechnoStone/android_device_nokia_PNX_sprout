@@ -343,6 +343,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Touchscreen
+PRODUCT_PACKAGES += \
+    libtinyxml2
+
 # Update Engine
 PRODUCT_PACKAGES += \
     update_engine \

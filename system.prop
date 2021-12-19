@@ -70,7 +70,6 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 ro.media.recorder-max-base-layer-fps = 60
 
 # Misc
-ro.product.property_source_order=odm,vendor,product,system_ext,system
 ro.kernel.qemu.gles=0
 
 # Navigation

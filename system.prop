@@ -129,3 +129,6 @@ persist.sys.wfd.virtual=0
 
 # Wifi
 ro.boot.wificountrycode=US
+
+# Don't write binary XML files
+persist.sys.binary_xml=false

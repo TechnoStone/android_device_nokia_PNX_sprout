@@ -59,6 +59,7 @@ ro.media.recorder-max-base-layer-fps = 60
 
 # Misc
 ro.kernel.qemu.gles=0
+persist.sys.binary_xml=false
 
 # Navigation
 qemu.hw.mainkeys=0

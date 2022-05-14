@@ -77,7 +77,6 @@ persist.vendor.radio.data_con_rprt=1
 persist.vendor.radio.lte_vrte_ltd=1
 persist.vendor.radio.oem_socket=true
 ril.subscription.types=NV,RUIM
-rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 
 # Rmnet data
 persist.data.wda.enable=true
